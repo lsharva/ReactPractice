@@ -47,6 +47,7 @@ class LifecycleA extends Component{
                   <h1>{this.state.name}</h1>
                   <button onClick={this.changeName}>Chnage</button>
                   <LifecycleB/>
+                  <h1>"Check the Changes in Git "</h1>
             </div>
           
         )
