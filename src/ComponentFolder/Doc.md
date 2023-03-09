@@ -7,10 +7,9 @@ JavaScript : Array methods, String Methods,
 
 react life cycle method
 
-Mounting
-Number of Methods = 4 
+MountingNumber of Methods = 4 
 1.Constructor
-    We can do iniialize the state value and bind the methods, never request HTTP ,( get, put, post)
+    We can do iniialize the state value and bind the methods, neve r request HTTP ,( get, put, post)
 2.static getDerivedStateFromProps(Prestate,PreProps)
 
 3.Render 
