@@ -7,7 +7,7 @@ import LifecycleB from './ComponentFolder/LifecycleB';
 
 function App() {
   return (
-    <div>
+    <div className=''>
       <LifecycleA/>
       <Formcomp/>
       <LifecycleB/>

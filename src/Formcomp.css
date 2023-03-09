@@ -1,0 +1,33 @@
+form {
+    background-color: blue;
+    border :5px solid black ;
+padding:10px ;
+margin: 2%;
+
+
+
+}
+
+form > div 
+{
+    margin-left: 5%;
+    margin-bottom: 1%;
+padding: 1%;    
+}
+
+form > div >label
+{
+    color: aliceblue;
+    margin-right: 2%;
+}
+
+form > div > input
+{
+    width: 30%;
+    height: 10vh;
+}
+
+h1 {
+    color: brown;
+    margin-right: 2%;
+}

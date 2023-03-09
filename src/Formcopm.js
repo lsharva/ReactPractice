@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Formcomp.css"
 
 export default class Formcomp extends Component{
     constructor(props){
@@ -6,8 +7,25 @@ export default class Formcomp extends Component{
         this.state={
             userName:"",
             address:"",
-            topic:"react"
+            topic:"react", 
+            userEmail: "",
+            userpassword: ""
         }
+    }
+
+    userEmailChange= (e)=>{
+        this.setState(
+{userEmail:e.target.value}            
+        )
+    }
+
+    userPasswordChange = (e)=>{
+
+        this.setState(
+        {
+            userpassword: e.target.value
+        }
+        )
     }
 
     userNameChange = (e) =>{
@@ -51,6 +69,23 @@ export default class Formcomp extends Component{
                        <option value="css">Css</option>
                     </select>
                 </div>
+<div>
+    <label>EMail</label>
+    <input type="email" onChange={this.userEmailChange} value= {this.userEmail} />
+
+</div>
+
+<div>
+
+<label>Password</label>
+<input type="Password" onChange={this.userPasswordChange} value={this.userpassword} />
+
+
+</div>
+<button type="Submit">
+    SUBMIT
+</button>
+
              </form>
         )
     }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import LifecycleB from "./LifecycleB";
+import "../Formcomp.css"
 
 class LifecycleA extends Component{
     constructor(props){

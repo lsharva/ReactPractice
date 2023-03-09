@@ -36,3 +36,8 @@ Error boundary
 
 the lifecycle methods are used in Class , 
 In Hooks 
+
+CSS Style sheet pulled to the main Code
+CSS inline style 
+CSS as Javascript Object
+CSS Style Module    
