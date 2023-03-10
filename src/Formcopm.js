@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Formcomp.css"
 
+
+
 export default class Formcomp extends Component{
     constructor(props){
         super(props)
@@ -46,6 +48,11 @@ export default class Formcomp extends Component{
         })
     }
     render(){
+        const style = {
+            height : "30vh",
+            width : "40%",
+            color : "blue"
+        };
         return(
              <form>
                 <div>
@@ -53,11 +60,12 @@ export default class Formcomp extends Component{
                     <input type="text" 
                     value={this.state.userName}
                     onChange={this.userNameChange}/>
+                
                 </div>
-
+                
                 <div>
                     <label>Address:</label>
-                    <textarea value={this.state.address} onChange={this.addressChange}/>
+                    <textarea value={this.state.address} onChange={this.addressChange} style={style}/>
                 </div>
 
                 <div>
@@ -82,7 +90,7 @@ export default class Formcomp extends Component{
 
 
 </div>
-<button type="Submit">
+<button className="button_submit" type="Submit">
     SUBMIT
 </button>
 

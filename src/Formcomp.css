@@ -27,7 +27,15 @@ form > div > input
     height: 10vh;
 }
 
-h1 {
+.header_text {
     color: brown;
     margin-right: 2%;
+}
+.button_submit
+{
+    background-color: blueviolet;
+    width: 20%;
+    height: 5vh;
+    margin-left: 20%;
+
 }

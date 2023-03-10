@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import LifecycleB from "./LifecycleB";
-import "../Formcomp.css"
+import styles from "../formcomp.module.css"
+import '../Formcomp.css'
+
 
 class LifecycleA extends Component{
     constructor(props){
@@ -45,9 +47,9 @@ class LifecycleA extends Component{
 
         return(
             <div>
-                  <h1>{this.state.name}</h1>
+                  <h1 className= {styles.header_text}>{this.state.name}</h1>
                   <button onClick={this.changeName}>Chnage</button>
-                  <LifecycleB/>
+                  <LifecycleB className="header_text"/>
                   <h1>"Check the Changes in Git "</h1>
             </div>
           

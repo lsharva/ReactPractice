@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../Formcomp.css'
 
 class LifecycleB extends Component{
     constructor(props){
@@ -34,7 +35,7 @@ class LifecycleB extends Component{
     {
         console.log("LifeCycleB Render")
         return(
-            <h1>{this.state.name}</h1>
+            <h1 className="header_text">{this.state.name}</h1>
         )
     }
 }
