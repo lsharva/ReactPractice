@@ -15,7 +15,7 @@ class LifecycleB extends Component{
     }
 
     shouldComponentUpdate(nextprops,nextstate){
-        console.log("LigeCycleB ShouldCoponentUpdate")
+        // console.log("LigeCycleB ShouldCoponentUpdate")
         return true
     }
 
