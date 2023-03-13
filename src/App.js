@@ -4,14 +4,19 @@ import './App.css';
 import LifecycleA from './ComponentFolder/LifecycleA';
 import Formcomp from './Formcopm';
 import LifecycleB from './ComponentFolder/LifecycleB';
+import Listing from './Listing';
+import FormBootStrap from './FormBootStrap';
+
 
 function App() {
   return (
     <div className=''>
-      <LifecycleA/> {/*Call LifeCycleA component*/}
+      <Listing />
+      {/* <LifecycleA/> Call LifeCycleA component */}
       <Formcomp/>
-      <LifecycleB/>
+      {/* <LifecycleB/> */}
       {/* <Component01/> */}
+      <FormBootStrap/>
     </div>  
 
 

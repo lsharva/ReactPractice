@@ -1,41 +1,44 @@
 form {
     background-color: blue;
-    border :5px solid black ;
-padding:10px ;
-margin: 2%;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 2%;
 
 
 
 }
 
-form > div 
-{
+form>div {
     margin-left: 5%;
     margin-bottom: 1%;
-padding: 1%;    
+    padding: 1%;
 }
 
-form > div >label
-{
+form>div>label {
     color: aliceblue;
     margin-right: 2%;
 }
 
-form > div > input
-{
+form>div>input {
     width: 30%;
-    height: 10vh;
+    height: vh;
 }
 
 .header_text {
     color: brown;
     margin-right: 2%;
 }
-.button_submit
-{
+
+.button_submit {
     background-color: blueviolet;
     width: 20%;
     height: 5vh;
     margin-left: 20%;
 
+}
+
+.myTable {
+    background-color: darkcyan !important;
+
+    color: blanchedalmond !important;
 }
