@@ -1,4 +1,5 @@
 import React from 'react';
+import PersonList from './PersonList'
 
 export default function Listing() {
 
@@ -42,22 +43,28 @@ export default function Listing() {
     // const arr = ['krish' , 'karan' , 'raj']
 
 
-    return (
-        //  arr.map(names => <h1>{names}</h1>)
-        persons.map(person =>
-            <div className='container'>
-                <div>
-                    <h3> `Hi my id is  {person.id } {""}
-                     and My Name is {person.name } {""}
-                     and My age is {person.age } {""}
-                     and my role is {person.role } {""}
-                    </h3>
+    // return (
+    //     //  arr.map(names => <h1>{names}</h1>)
+    //     persons.map(person =>  
+    //         <div className='container'>
+    //             <div>
+    //                 <h3> Hi my id is  {person.id } {""}
+    //                  and My Name is {person.name } {""}
+    //                  and My age is {person.age } {""}
+    //                  and my role is {person.role } {""}
+    //                 </h3>
 
-                </div>
-            </div>
-        )
+    //             </div>
+    //         </div>
+    //     )
 
-    )
+    // )
 
+      return(
+        persons.map(person=> <PersonList key={person.id} listofperson={person}  />)
+        
+       
+      )
+     
 
 }

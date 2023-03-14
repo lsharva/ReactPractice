@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Karan",
+        "age": "22",
+        "role": "user"
+    },
+    {
+        "id": 2,
+        "name": "Kiran",
+        "age": "29",
+        "role": "admin"
+    },
+    {
+        "id": 3,
+        "name": "KarOna",
+        "age": "45",
+        "role": "user"
+    },
+    {
+        "id": 4,
+        "name": "Karen",
+        "age": "50",
+        "role": "admin"
+    }
+]
